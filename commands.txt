@@ -1,0 +1,11 @@
+pip install virtualenv
+
+source ./venv/bin/activate
+
+source ./venv/bin/deactivate
+
+
+
+pip install -r requirements.txt
+
+FLASK_APP=mmm.py flask run
